@@ -1,4 +1,7 @@
+# Made by Lucien Hammond
+
 import sys
+
 exit = 0
 print("Supported Citations: APA")
 while exit != 1:
@@ -14,5 +17,8 @@ while exit != 1:
         Year = input("Enter the year here(last 2 digits): ")
 
         print(Lastname + ", " + Firstname + ", " + Title + "." + "[Online] " + URL + ", Accessed: " + Month + "/" + Day + "/" + Year + ".")
+    if decidingCitation == "MLA":
+        
     if decidingCitation == "exit":
         sys.exit()
+    
